@@ -1,13 +1,58 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #141414;
+  color: #fff;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),url('./img/fondo_criptos_4.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.93;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.color-tabla{
+  background: #0B243B;
 }
+
+.centrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-size{
+  width: 200px;
+}
+
+.card-color{
+  background: #8cc8ac;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .img-responsive{
+    width: 15%;
+  }
+  
+}
+@media (min-width: 769px){
+  .img-responsive {
+    width: 8%;
+  }
+}
+
+@media (min-width: 993px) {
+  .img-responsive{
+    width: 3%;
+  }
+  
+}
+
+/* @media only screen and (max-width: 799px) { //poner una imagen mas chica en responsive !!!
+  body {
+    background-image: url('');
+  }
+} */
+
